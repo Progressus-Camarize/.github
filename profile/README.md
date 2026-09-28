@@ -49,7 +49,7 @@ Seis testes em aquário com camarões e peixes, comparando o ESP32 com termômet
 | Temperatura (DS18B20) | Erro médio 1,73% · precisão 98,27% · faixa testada 17,0–26,0 °C |
 | pH (Ph4502) | Erro médio 4,02% · precisão 95,98% · desvio constante de ~0,2, corrigível por recalibração |
 | Amônia (MQ-135) | Leu 0,000 ppm em todos os testes, coerente com a água recém-trocada. Não serve para quantificação em meio aquático (é um sensor de gás no ar) |
-| Alerta ponta a ponta | ≈ 2 minutos entre o evento e o recebimento do alerta |
+| Alerta ponta a ponta | Envio imediato |
 | Alimentador | Lógica de horários e quantidades funcionou; o mecanismo físico apresentou instabilidade |
 
 Os testes foram feitos em aquário, não em viveiro de produção. Detalhes e discussão no artigo.
