@@ -34,7 +34,7 @@ Um sistema que liga sensores a um painel web e avisa o produtor quando algo sai 
 ```
 ESP32 ──HTTP/JSON──▶ API Express ──▶ MongoDB Atlas
 (DS18B20 · Ph4502     (JWT · Swagger)      │
- · MQ-135 · relé)          │               │
+ · MQ-135 · motor 28BYJ-48)          │               │
                            ├──▶ alertas: push + e-mail
                            ▼
                   Front Next.js 14 (PWA)
@@ -50,7 +50,7 @@ Seis testes em aquário com camarões e peixes, comparando o ESP32 com termômet
 | pH (Ph4502) | Erro médio 4,02% · precisão 95,98% · desvio constante de ~0,2, corrigível por recalibração |
 | Amônia (MQ-135) | Leu 0,000 ppm em todos os testes, coerente com a água recém-trocada. Não serve para quantificação em meio aquático (é um sensor de gás no ar) |
 | Alerta ponta a ponta | Envio imediato |
-| Alimentador | Lógica de horários e quantidades funcionou; o mecanismo físico apresentou instabilidade |
+| Alimentador | Lógica de horários e quantidades funcionou; |
 
 Os testes foram feitos em aquário, não em viveiro de produção. Detalhes e discussão no artigo.
 
@@ -80,8 +80,8 @@ Frontend em `localhost:3000`, API em `localhost:4000` e documentação Swagger e
 | Integrante | Atuação |
 |---|---|
 | [Tiago Rodrigues](https://github.com/tiagorodrigues9) | Pesquisa científica, documentação e redação do artigo |
-| Leandro Augusto | IoT (Arduino e sensores) e design |
-| Davi Mathais | Desenvolvimento full stack e design |
+| [Davi Mathais](https://github.com/cksalmeida) | IoT (Arduino e sensores) e design |
+| [Leandro Augusto](https://github.com/Leandr0-August0) | Desenvolvimento full stack e design |
 
 ## Licença
 
