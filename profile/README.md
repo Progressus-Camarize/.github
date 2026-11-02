@@ -62,8 +62,6 @@ Os testes foram feitos em aquário, não em viveiro de produção. Detalhes e di
 | [**CAMARIZE-BY-PROGRESSUS**](https://github.com/Progressus-Camarize/CAMARIZE-BY-PROGRESSUS) | Site institucional do projeto. [Ver site](https://camarize-by-progressus.vercel.app/) | Vite, React 18, TypeScript, Tailwind v4, Framer Motion |
 | [**Artigo-cientifico**](https://github.com/Progressus-Camarize/Artigo-cientifico) | Artigo, slides e artefatos acadêmicos. [Ler o PDF](https://github.com/Progressus-Camarize/Artigo-cientifico/blob/main/template-paper-f299-artigo/artigo.pdf) | LaTeX, Beamer |
 
-> `APP-0.2-CAMARIZE-V2` e `CAMARIZE-BY-PROGRESSUS` são forks de repositórios de [joaovitor101](https://github.com/joaovitor101).
-
 ## Rodando o projeto
 
 Pré-requisitos: Node.js 18+ e Docker.
