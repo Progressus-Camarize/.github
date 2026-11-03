@@ -29,7 +29,7 @@ Um sistema que liga sensores a um painel web e avisa o produtor quando algo sai 
 - **Painel (PWA):** valores atuais e gráficos históricos semanais por cativeiro.
 - **Alertas:** os limites são definidos pelo usuário; ao ultrapassá-los, o sistema envia notificação push e e-mail.
 - **Acesso por perfil:** proprietário (acesso completo) e funcionário (acesso operacional restrito).
-- **Alimentação:** agendamento de horários e quantidades de ração, com acionamento por relé.
+- **Alimentação:** agendamento de horários e quantidades de ração.
 
 ```
 ESP32 ──HTTP/JSON──▶ API Express ──▶ MongoDB Atlas
